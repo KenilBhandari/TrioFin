@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import Input from '../Input/Input';
 import Lottie from 'react-lottie';
-import animationData from '../../../../Loading Animation.json'; 
+import animationData from '../../animations/Loading Animation.json';
 
 
 function Loader() {
