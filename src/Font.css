@@ -1,0 +1,65 @@
+@import
+url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
+
+@import
+url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* Custom CSS */
+.custom-mt {
+    margin-top: 1rem;
+  }
+  
+  @media (max-width: 414px) {
+    .custom-mt {
+      margin-top: 1rem !important; /* Force the style */
+    }
+    .custom-space {
+        gap: 2rem;
+      }
+      .custom-expense{
+        margin-right: 0.35rem;
+      } 
+      .custom-tax{
+        margin-right: 0.35rem;
+      } 
+  }
+  
+  @media (max-width: 380px) {
+    .custom-mt {
+        margin-top: 2rem !important;
+        
+      }
+      .custom-space {
+        gap: 5rem;
+      }
+      .custom-inflation{
+        margin-left: -0.8rem;
+      } 
+      .custom-increment{
+        margin-left: -1.1rem;
+      } 
+      .custom-expense{
+        margin-right: 0.35rem;
+      } 
+      .custom-tax{
+        margin-right: 0.35rem;
+      } 
+      .custom-tip{
+        margin-right: 1rem;
+      } 
+       
+    }
+   /* Add this CSS to your existing stylesheet */
+.button-shadow {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.button-shadow:active {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+    
